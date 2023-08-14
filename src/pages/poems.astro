@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const allPosts = await Astro.glob("../pages/poems/*.md");
+const pageTitle = "Ποιήματα";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <h1 class="my-8 text-5xl font-bold">{pageTitle}</h1>
+  <ul>
+    {
+      allPosts.map((post) => (
+        <li><a href={post.url}>{post.frontmatter.title</a></li>
+      ))
+    }
+  </ul>
+</BaseLayout>
