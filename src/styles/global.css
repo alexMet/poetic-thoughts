@@ -7,3 +7,13 @@ html.dark {
   background-color: #3f4756;
   color: #ffedcb;
 }
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 5px solid;
+}
