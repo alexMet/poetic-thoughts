@@ -13,9 +13,9 @@ const { pageTitle } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle} | Ποιητικές σκέψεις</title>
   </head>
-  <body class="mx-auto max-w-prose">
+  <body class="mx-auto max-w-prose px-4 sm:px-0">
     <Header />
-    <main class="mt-14 px-4 leading-8">
+    <main class="mt-14 leading-8">
       <slot />
     </main>
     <Footer />
