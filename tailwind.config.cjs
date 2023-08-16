@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
 	content: ['./src/**/*.{astro,html,js}'],
 	darkMode: "class",
@@ -7,6 +9,9 @@ module.exports = {
 			colors: {
 				primary: "#3f4756",
 				secondary: "#ffedcb",
+			},
+			fontFamily: {
+				sans: ['Comfortaa', ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
