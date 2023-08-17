@@ -8,6 +8,10 @@ html.dark {
   color: #ffedcb;
 }
 
+p {
+  padding-top: 1.5rem;
+}
+
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 5px;
