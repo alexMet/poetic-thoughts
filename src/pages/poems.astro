@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import PoemLink from "../components/PoemLink.astro";
 const allPosts = await Astro.glob("../pages/poems/*.md");
 const pageTitle = "Ποιήματα";
 ---
@@ -8,9 +9,7 @@ const pageTitle = "Ποιήματα";
   <h1 class="my-8 text-5xl font-bold">{pageTitle}</h1>
   <ul>
     {
-      allPosts.map((post) => (
-        <li><a href={post.url}>{post.frontmatter.title</a></li>
-      ))
+      allPosts.map((post) => <PoemLink url={post.url} title={post.frontmatter.title} />)
     }
   </ul>
 </BaseLayout>
