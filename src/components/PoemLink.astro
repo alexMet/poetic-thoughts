@@ -2,8 +2,19 @@
 const { url, title } = Astro.props;
 ---
 
-<li class="mt-2">
-  &#8275;
+<li class="group mt-2">
+  <div class="inline-block w-5">
+    <span
+      class="absolute transition-all duration-300 group-hover:invisible group-hover:opacity-0"
+    >
+      &#8275;
+    </span>
+    <span
+      class="invisible opacity-0 transition-all duration-300 group-hover:visible group-hover:opacity-100"
+    >
+      &mdash;
+    </span>
+  </div>
   <a
     class="inline-block no-underline after:block after:h-px after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full dark:after:bg-secondary"
     href={url}
