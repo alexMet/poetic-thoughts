@@ -1,11 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PoemLink from '../components/PoemLink.astro';
+
 const allPosts = await Astro.glob('../pages/poems/*.md');
 const pageTitle = 'Ποιήματα';
+const metaDescription = 'Η λίστα με τις ποιητικές μου σκέψεις.';
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageTitle={pageTitle} metaDescription={metaDescription}>
   <h1 class="my-8 text-5xl font-bold">{pageTitle}</h1>
   <ul>
     {
