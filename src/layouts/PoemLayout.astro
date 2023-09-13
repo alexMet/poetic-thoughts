@@ -1,11 +1,31 @@
 ---
+import Anchor from '../components/Anchor.astro';
 import BaseLayout from './BaseLayout.astro';
+
 const { frontmatter } = Astro.props;
+const allPoems = await Astro.glob('../pages/poems/*.md');
+const poemIndex = allPoems.findIndex((el) => el.url === frontmatter.url);
+const poemCnt = allPoems.length;
+
+const prevPoem =
+  poemIndex - 1 < 0 ? allPoems[poemCnt - 1] : allPoems[poemIndex - 1];
+const nextPoem =
+  poemIndex + 1 >= poemCnt ? allPoems[0] : allPoems[poemIndex + 1];
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
   <article>
     <h1 class="mb-6 text-5xl font-bold">{frontmatter.title}</h1>
     <slot />
+    <nav class="mt-16 flex justify-between">
+      <div>
+        <span class="mr-1">&#8592;</span>
+        <Anchor url={prevPoem.url} title="Προηγούμενο" />
+      </div>
+      <div>
+        <Anchor url={nextPoem.url} title="Επόμενο" />
+        <span class="ml-1">&#8594;</span>
+      </div>
+    </nav>
   </article>
 </BaseLayout>
