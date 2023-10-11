@@ -3,6 +3,6 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: 'https://poeticthoughts.gr',
+  site: 'https://www.poeticthoughts.gr',
   integrations: [tailwind(), sitemap()],
 });
