@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Χρώμα'
 pubDate: 2023-07-01
 ---
+![An image of two entities looking at each other.](../../images/xrwma.webp)
 
 Στα μάτια με κοιτάς
 

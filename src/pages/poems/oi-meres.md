@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Οι μέρες'
 pubDate: 2023-07-01
 ---
+![An image of a couple looking at each other and a universe forming around the girl's head.](../../images/oi-meres.webp)
 
 Κάθε μέρα να προσεύχομαι ξεχνάω
 

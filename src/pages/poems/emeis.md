@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Εμείς'
 pubDate: 2023-07-01
 ---
+![An image with three entities highlighting the heart and the whole.](../../images/emeis.webp)
 
 Μα πέρα από αυτό υπάρχω
 

@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Γραμμή'
 pubDate: 2023-07-01
 ---
+![An image of a group of creatures divided by an imaginary line.](../../images/grammh.webp)
 
 Όλοι έχουμε μια γραμμή
 

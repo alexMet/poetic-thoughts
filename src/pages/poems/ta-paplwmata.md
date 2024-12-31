@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Τα παπλώματα'
 pubDate: 2023-07-01
 ---
+![An image with a couple on the bed hugging and floating in the universe.](../../images/ta-paplwmata.webp)
 
 Τα μάτια σου ο γαλαξίας μου
 

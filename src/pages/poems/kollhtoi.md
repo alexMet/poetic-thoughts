@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Κολλητοί'
 pubDate: 2023-07-01
 ---
+![An image of two people looking at each other in a metro wagon.](../../images/kollhtoi.webp)
 
 Ήμασταν κολλητοί παλιά
 

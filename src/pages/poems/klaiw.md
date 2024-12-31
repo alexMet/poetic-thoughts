@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Κλαίω'
 pubDate: 2023-07-01
 ---
+![An image of a couple looking at each other, one sitting on a bed and the other on a wave.](../../images/klaiw.webp)
 
 Κλαίω και με φιλάς
 

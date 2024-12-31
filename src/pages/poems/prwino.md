@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Πρωινό'
 pubDate: 2023-07-01
 ---
+![An image of a person looking at a magical sunrise.](../../images/prwino.webp)
 
 Αυτά στα αυτιά σου δεν θα φτάσουνε ποτέ
 

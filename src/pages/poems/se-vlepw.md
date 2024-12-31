@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Σε βλέπω'
 pubDate: 2023-07-01
 ---
+![An image of a man in a metro station looking at his phone](../../images/se-vlepw.webp)
 
 Σε βλέπω φορτίζεις στο μετρό
 

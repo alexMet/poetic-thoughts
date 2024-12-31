@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Οι καρέκλες'
 pubDate: 2023-07-01
 ---
+![An image of an elderly person surrounded by chairs.](../../images/karekles.webp)
 
 Μαζεύεις τις καρέκλες
 

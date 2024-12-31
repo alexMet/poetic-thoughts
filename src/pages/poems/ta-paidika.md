@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Τα παιδικά'
 pubDate: 2023-07-01
 ---
+![An image of a child watching TV in the middle of a room.](../../images/ta-paidika.webp)
 
 Θυμάσαι πως ένιωθες μικρό;
 

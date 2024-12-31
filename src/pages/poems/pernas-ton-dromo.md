@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Περνάς τον δρόμο'
 pubDate: 2023-07-01
 ---
+![An image of a person walking alone on a road in an empty city.](../../images/pernas-ton-dromo.webp)
 
 Περνάς τον δρόμο βιαστικά ή χαιρετάς φασιστικά;
 

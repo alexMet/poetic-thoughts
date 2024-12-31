@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Σε αφήνω'
 pubDate: 2023-07-01
 ---
+![An image of a person sitting on a couch and surrounded by waves.](../../images/se-afhnw.webp)
 
 Τα χέρια σου είναι παγωμένα
 

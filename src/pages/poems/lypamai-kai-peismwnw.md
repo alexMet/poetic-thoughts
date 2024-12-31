@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Λυπάμαι και πεισμώνω'
 pubDate: 2023-07-01
 ---
+![An image of a lonely person on a crosswalk in a foggy and gloomy road.](../../images/lypamai-kai-peismwnw.webp)
 
 Στον δρόμο με περνάς ώμο ώμο
 

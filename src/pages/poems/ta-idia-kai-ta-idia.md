@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Τα ίδια και τα ίδια'
 pubDate: 2023-07-01
 ---
+![An image of a peson mopping and looking out the window to an imaginary view.](../../images/ta-idia-kai-ta-idia.webp)
 
 Καθαρίζεις και χαζεύεις
 

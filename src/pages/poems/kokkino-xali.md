@@ -3,6 +3,7 @@ layout: ../../layouts/PoemLayout.astro
 title: 'Κόκκινο χαλί'
 pubDate: 2023-07-01
 ---
+![An image of a person sitting on a bench drinking a beer with celebrities in the background.](../../images/kokkino-xali.webp)
 
 Πόσο καθαρή είναι η ψυχή σου;
 
