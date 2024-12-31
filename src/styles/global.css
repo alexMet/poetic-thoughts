@@ -1,15 +1,20 @@
 html {
   background-color: #ffedcb;
-  color: #3f4756;
+  color: #1a1a1a;
 }
 
 html.dark {
-  background-color: #3f4756;
+  background-color: #1a1a1a;
   color: #ffedcb;
 }
 
 article p {
   padding-top: 1.5rem;
+}
+
+article img {
+  margin-bottom: 3rem;
+  border-radius: 50px;
 }
 
 ::selection {

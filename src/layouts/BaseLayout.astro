@@ -16,15 +16,19 @@ const { pageTitle, metaDescription } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={metaDescription} />
-    <title>{pageTitle ? `${pageTitle} | ` : '' }Ποιητικές σκέψεις</title>
+    <title>{pageTitle ? `${pageTitle} | ` : ''}Ποιητικές σκέψεις</title>
     <script>
-      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+      window.va =
+        window.va ||
+        function () {
+          (window.vaq = window.vaq || []).push(arguments);
+        };
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
   </head>
   <body class="mx-auto max-w-prose px-4 sm:px-0">
     <Header />
-    <main class="mt-14 text-lg">
+    <main class="mt-24 text-lg text-center">
       <slot />
     </main>
     <Footer />
