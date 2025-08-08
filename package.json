@@ -7,17 +7,15 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "preview": "astro preview"
   },
   "dependencies": {
-    "@astrojs/rss": "^4.0.10",
-    "@astrojs/sitemap": "^3.2.1",
-    "@astrojs/tailwind": "^5.1.4",
+    "@astrojs/rss": "^4.0.12",
+    "@astrojs/sitemap": "^3.4.2",
+    "@astrojs/tailwind": "^6.0.2",
     "@fontsource/comfortaa": "^5.1.0",
-    "astro": "^5.1.1",
+    "astro": "^5.12.8",
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {

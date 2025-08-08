@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PoemLink from '../components/PoemLink.astro';
 
-const allPosts = await Astro.glob('../pages/poems/*.md');
+const allPoems = Object.values(import.meta.glob('../pages/poems/*.md', { eager: true }) as Record<string, ExportedMarkdownModuleEntities>);
 const pageTitle = 'Ποιήματα';
 const metaDescription = 'Η λίστα με τις ποιητικές μου σκέψεις.';
 ---
@@ -11,8 +11,8 @@ const metaDescription = 'Η λίστα με τις ποιητικές μου σ�
   <h1 class="my-8 text-5xl font-bold">{pageTitle}</h1>
   <ul>
     {
-      allPosts.map((post) => (
-        <PoemLink url={post.url} title={post.frontmatter.title} />
+      allPoems.map((poem) => (
+        <PoemLink url={poem.url} title={poem.frontmatter.title} />
       ))
     }
   </ul>

@@ -3,7 +3,7 @@ import Anchor from '../components/Anchor.astro';
 import BaseLayout from './BaseLayout.astro';
 
 const { frontmatter } = Astro.props;
-const allPoems = await Astro.glob('../pages/poems/*.md');
+const allPoems = Object.values(import.meta.glob('../pages/poems/*.md', { eager: true }) as Record<string, ExportedMarkdownModuleEntities>);
 const poemIndex = allPoems.findIndex((el) => el.url === frontmatter.url);
 const poemCnt = allPoems.length;
 
